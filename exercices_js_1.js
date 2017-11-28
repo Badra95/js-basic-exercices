@@ -93,22 +93,24 @@ console.log ("A vaut : " + a + " et B vaut : " + b);
 // Cette fonction doit renvoyer un booléen
 var isDivisibleBy5 = function(x) {
 	// WRITE YOUR CODE HERE
-  if ( x % 5 == 0 )
-    return true;
-  else
-    return false;
-};
+  return x % 5 == 0;
+//   if ( x % 5 == 0 )
+//     return true;
+//   else
+//     return false;
+// };
 
 // ----
 // Ecrire une fonction 'isDivisibleByN' qui reçoit deux nombres entiers x et n, et qui vérifie si x est divisible par n.
 // Cette fonction doit renvoyer un booléen
 function isDivisibleByN(x, n) {
 	// WRITE YOUR CODE HERE
-  if ( x % n == 0 )
-    return true;
-  else
-    return false;
-};
+  return x % n == 0;
+//   if ( x % n == 0 )
+//     return true;
+//   else
+//     return false;
+// };
 
 // ----
 // Générer un nombre décimal compris entre 0 et 1, et le stocker dans une variable
